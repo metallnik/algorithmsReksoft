@@ -25,10 +25,7 @@ public class Task2 {
             } else {
                 startIndex = middleIndex + 1;
             }
-            if (middleElement == 0 || middleElement == sortedArray.length - 1 || startIndex > endIndex) {
-                break;
-            }
-        } while (true);
+        } while (startIndex <= endIndex);
         return -1;
     }
 }
