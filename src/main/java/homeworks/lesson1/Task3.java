@@ -15,8 +15,13 @@ public class Task3 {
             if (array1Element > lastArray2Element) {
                 System.out.println(array1Element);
             } else {
-                lastArray2Index = lastArray2Index - 1;
-                lastArray2Element = array2[lastArray2Index];
+                if (array1Element != lastArray2Element && i != 0) {
+                    i++;
+                }
+                if (lastArray2Index != 0) {
+                    lastArray2Index = lastArray2Index - 1;
+                    lastArray2Element = array2[lastArray2Index];
+                }
             }
         }
     }
