@@ -7,7 +7,7 @@ public class TestDataGenerationUtil {
 
     private static final Random random = new Random();
 
-    private static final int bound = 10_000;
+    private static final int bound = 100;
 
     private TestDataGenerationUtil() {
     }
